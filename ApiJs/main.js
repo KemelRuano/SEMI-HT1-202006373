@@ -17,6 +17,7 @@ app.get("/check", (req, res) => {
     res.status(200).json(Message);
 });
 
-app.listen(3000, () => {
-    console.log("Server is running on port 3000");
+
+app.listen(8081, '0.0.0.0', () => {
+  console.log("Server is running on port 8081");
 });
